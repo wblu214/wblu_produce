@@ -1,174 +1,172 @@
 {
   "personal": {
-    "name": "张三",
-    "title": "前端开发工程师",
-    "subtitle": "React 爱好者 | 产品经理",
+    "name": "路文斌",
+    "title": "后端开发工程师",
+    "subtitle": "Java开发专家 | 分布式系统架构师",
     "avatar": "avatar-example.jpg",
-    "bio": "专注于现代化前端开发，拥有丰富的React生态系统开发经验，热爱用户体验设计和性能优化。",
+    "bio": "专注于后端开发和分布式系统架构，在数据处理、爬虫开发和企业级应用方面有丰富经验。",
     "contact": {
-      "email": "zhangsan@example.com",
-      "github": "https://github.com/zhangsan",
-      "linkedin": "https://linkedin.com/in/zhangsan",
-      "wechat": "zhangsan_dev"
+      "email": "2897718178@qq.com",
+      "github": "https://github.com/wblu214",
+      "gitlab": "https://gitlab.com/lwb214",
+      "blog": "https://blog.csdn.net/weixin_59402226?type=blog"
     }
   },
   "skills": [
     {
-      "name": "React",
+      "name": "Java",
       "level": 90,
-      "category": "前端框架"
+      "category": "编程语言"
     },
     {
-      "name": "JavaScript/TypeScript",
+      "name": "Python",
       "level": 85,
       "category": "编程语言"
     },
     {
-      "name": "Tailwind CSS",
+      "name": "Spring Boot",
+      "level": 88,
+      "category": "后端框架"
+    },
+    {
+      "name": "Kafka",
+      "level": 85,
+      "category": "消息队列"
+    },
+    {
+      "name": "MySQL",
       "level": 80,
-      "category": "样式框架"
-    },
-    {
-      "name": "Node.js",
-      "level": 75,
-      "category": "后端技术"
-    },
-    {
-      "name": "Vue.js",
-      "level": 70,
-      "category": "前端框架"
-    },
-    {
-      "name": "MongoDB",
-      "level": 65,
       "category": "数据库"
+    },
+    {
+      "name": "TiDB",
+      "level": 75,
+      "category": "数据库"
+    },
+    {
+      "name": "Redis",
+      "level": 78,
+      "category": "缓存技术"
+    },
+    {
+      "name": "Docker",
+      "level": 75,
+      "category": "容器化"
+    },
+    {
+      "name": "Scrapy",
+      "level": 85,
+      "category": "爬虫框架"
+    },
+    {
+      "name": "Selenium",
+      "level": 80,
+      "category": "爬虫框架"
+    },
+    {
+      "name": "MyBatis",
+      "level": 82,
+      "category": "ORM框架"
+    },
+    {
+      "name": "JUnit",
+      "level": 75,
+      "category": "测试框架"
     }
   ],
   "education": [
     {
       "id": "edu1",
-      "year": "2018-2022",
-      "degree": "本科",
-      "school": "XX大学",
+      "year": "2020-2024",
+      "degree": "学士",
+      "school": "宁夏大学",
       "major": "计算机科学与技术",
-      "desc": "GPA 3.8/4.0，获得国家奖学金，参与校级项目"校园管理系统"开发（React+Node.js）。担任学生会技术部部长，组织多次技术分享会。",
-      "location": "北京",
+      "desc": "211双一流大学计算机科学与技术专业，在校期间表现优异，获得多项奖项。",
+      "location": "宁夏",
       "achievements": [
-        "国家奖学金获得者",
-        "优秀学生干部",
-        "校级优秀毕业生"
-      ]
-    },
-    {
-      "id": "edu2",
-      "year": "2015-2018",
-      "degree": "高中",
-      "school": "XX市第一中学",
-      "major": "理科",
-      "desc": "高考成绩优异，数学、物理成绩突出。参与数学竞赛获得省级二等奖。",
-      "location": "上海",
-      "achievements": [
-        "高考理科优秀生",
-        "数学竞赛省级二等奖"
+        "校级二等奖学金",
+        "蓝桥杯省级一等奖",
+        "大学生创新创业大赛校级一等奖"
       ]
     }
   ],
   "work": [
     {
       "id": "work1",
-      "year": "2022-至今",
-      "company": "XX科技有限公司",
-      "position": "前端开发工程师",
-      "desc": "主导3个项目前端开发，提升页面加载速度30%，优化组件性能20%。负责技术选型、架构设计和团队培训。",
-      "location": "北京",
+      "year": "2024年6月-至今",
+      "company": "万得（Wind）",
+      "position": "Java开发工程师",
+      "department": "海外企业部门",
+      "desc": "负责全球企业数据爬取和处理系统的开发与维护，日均处理200万+条数据。",
+      "location": "上海",
       "responsibilities": [
-        "负责公司核心产品前端开发",
-        "制定前端开发规范和最佳实践",
-        "指导初级开发者技术成长",
-        "参与产品需求讨论和技术方案设计"
+        "构建多国商业数据爬取集群，采用动态代理/IP池规避反爬机制",
+        "开发结构化数据处理引擎，解析CSV/HTML/JSON等非结构化数据",
+        "设计多源数据融合算法，监听Kafka增量日志触发实时计算",
+        "优化TiDB分区写入策略，实现高性能数据入库"
       ],
       "achievements": [
-        "将主要产品首屏加载时间从3s优化到1.2s",
-        "搭建完善的组件库，提升开发效率40%",
-        "主导技术栈升级，从Vue2迁移到React18"
-      ]
+        "日均处理200万+条原始数据，报文延迟<500ms",
+        "数据衍生计算重复融合率减少80%",
+        "衍生指标计算准确率提升至95%",
+        "支持40+国家5万+企业实时数据更新（延迟≤3分钟）"
+      ],
+      "tech": ["Java", "Kafka", "MySQL", "TiDB", "Python", "SpringBoot"]
     },
     {
       "id": "work2",
-      "year": "2021-2022",
-      "company": "XX互联网公司",
-      "position": "前端开发实习生",
-      "desc": "参与电商平台前端开发，负责商品展示、购物车、订单管理等核心功能模块开发。学习并应用React Hooks、Redux等技术。",
-      "location": "深圳",
+      "year": "2023年10月-2024年2月",
+      "company": "得物",
+      "position": "Java开发实习生",
+      "department": "技术部",
+      "desc": "参与得物APP售前导购模块开发，这是一个AIGC项目，负责算法模型与产品流程的集成。",
+      "location": "上海",
       "responsibilities": [
-        "开发电商平台核心功能模块",
-        "优化移动端用户体验",
-        "参与代码review和技术讨论"
+        "新版本迭代需求的代码开发工作，包括卡片样式优化、关联商品池和价格反馈等功能",
+        "编写技术方案文档，包括时序图、用例图、开发逻辑、风险规避等",
+        "修复旧版本bug，优化用户体验"
       ],
       "achievements": [
-        "独立完成购物车功能开发",
-        "优化移动端适配，兼容性达到98%"
-      ]
+        "成功完成售前导购模块多个版本迭代",
+        "提升用户购物体验和商品推荐精准度"
+      ],
+      "tech": ["SpringBoot", "MyBatis", "MySQL", "Redis", "JUnit", "Mockito", "Kafka"]
     }
   ],
   "projects": [
     {
       "id": "project1",
-      "name": "校园管理系统",
-      "desc": "基于React+Node.js的校园管理系统，实现学生信息管理、课程预约、成绩查询等功能。支持多角色权限管理，采用响应式设计。",
-      "tech": ["React", "Node.js", "MongoDB", "Express", "Ant Design"],
-      "link": "https://example.com/project1",
-      "github": "https://github.com/zhangsan/campus-system",
-      "image": "project-example.png",
+      "name": "全球企业数据库全流程计算程序",
+      "desc": "构建分布式企业数据采集、处理和计算系统，支持多国企业数据实时同步。",
+      "duration": "2024年8月-至今",
+      "tech": ["Java", "Python", "Kafka", "TiDB", "Scrapy", "Selenium"],
       "features": [
-        "多角色权限管理（学生、教师、管理员）",
-        "课程在线预约和管理",
-        "实时成绩查询和统计",
-        "响应式设计，支持移动端"
+        "Python爬虫集群支持JavaScript渲染页面抓取",
+        "自动化解析引擎处理多种数据格式",
+        "多源计算框架支持配置化衍生计算",
+        "自动质检流程和跨TOPIC消重逻辑"
       ],
-      "status": "已完成",
-      "duration": "2021.09 - 2021.12"
-    },
-    {
-      "id": "project2",
-      "name": "个人博客系统",
-      "desc": "基于React+TypeScript开发的个人博客系统，支持Markdown编辑、标签分类、评论系统等功能。采用现代化的UI设计。",
-      "tech": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Prisma"],
-      "link": "https://example.com/project2",
-      "github": "https://github.com/zhangsan/my-blog",
-      "image": "project-example.png",
-      "features": [
-        "Markdown在线编辑和预览",
-        "文章标签分类和搜索",
-        "用户评论和点赞系统",
-        "SEO优化和性能优化"
+      "achievements": [
+        "数据衍生计算重复融合率减少80%",
+        "衍生指标计算准确率提升至95%",
+        "支持40+国家5万+企业实时数据更新"
       ],
       "status": "进行中",
-      "duration": "2022.06 - 至今"
-    },
-    {
-      "id": "project3",
-      "name": "电商小程序",
-      "desc": "微信小程序电商平台，包含商品浏览、购物车、订单管理、支付等完整电商流程。采用云开发技术栈。",
-      "tech": ["小程序", "云开发", "微信支付", "腾讯云"],
-      "link": "https://example.com/project3",
-      "github": "https://github.com/zhangsan/wechat-shop",
-      "image": "project-example.png",
-      "features": [
-        "完整的电商购买流程",
-        "微信支付集成",
-        "商品搜索和筛选",
-        "订单状态跟踪"
-      ],
-      "status": "已完成",
-      "duration": "2022.01 - 2022.05"
+      "architecture": [
+        "爬虫层：Python爬虫集群（Scrapy + Selenium）",
+        "结构化层：基于CSV/HTML/表格/JSON的自动化解析引擎",
+        "衍生计算层：多源计算可配置化框架",
+        "通用入库层：优化TiDB分区写入策略"
+      ]
     }
   ],
   "stats": {
-    "totalProjects": 8,
-    "codeLines": 120000,
-    "technologies": 15,
+    "totalProjects": 5,
+    "codeLines": 200000,
+    "technologies": 12,
     "experience": "2年+",
-    "certifications": 3
+    "certifications": 3,
+    "dataProcessed": "200万+/日",
+    "countriesSupported": "40+"
   }
 } 

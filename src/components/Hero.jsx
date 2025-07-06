@@ -16,17 +16,19 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-20"></div>
       
       <div className="relative z-10 text-center px-4">
-        {/* 头像 - 示例图片，后期替换为自己的 */}
+        {/* 头像 */}
         <motion.div
           className="mb-6"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          <div className="w-32 h-32 mx-auto rounded-full bg-white p-1 shadow-2xl">
-            <div className="w-full h-full rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center text-white text-4xl font-bold">
-              {personal.name.charAt(0)}
-            </div>
+          <div className="w-32 h-32 mx-auto rounded-full bg-white p-1 shadow-2xl overflow-hidden">
+            <img 
+              src="/lwb.jpeg" 
+              alt={personal.name}
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
         </motion.div>
 
@@ -67,7 +69,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.4, duration: 1 }}
         >
-          {['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Node.js'].map((tech, index) => (
+          {['Java', 'Python', 'Spring Boot', 'Kafka', 'MySQL'].map((tech, index) => (
             <motion.span
               key={tech}
               className="px-4 py-2 rounded-full bg-white text-blue-600 font-semibold text-sm shadow-lg"
