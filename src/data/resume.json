@@ -1,0 +1,174 @@
+{
+  "personal": {
+    "name": "张三",
+    "title": "前端开发工程师",
+    "subtitle": "React 爱好者 | 产品经理",
+    "avatar": "avatar-example.jpg",
+    "bio": "专注于现代化前端开发，拥有丰富的React生态系统开发经验，热爱用户体验设计和性能优化。",
+    "contact": {
+      "email": "zhangsan@example.com",
+      "github": "https://github.com/zhangsan",
+      "linkedin": "https://linkedin.com/in/zhangsan",
+      "wechat": "zhangsan_dev"
+    }
+  },
+  "skills": [
+    {
+      "name": "React",
+      "level": 90,
+      "category": "前端框架"
+    },
+    {
+      "name": "JavaScript/TypeScript",
+      "level": 85,
+      "category": "编程语言"
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": 80,
+      "category": "样式框架"
+    },
+    {
+      "name": "Node.js",
+      "level": 75,
+      "category": "后端技术"
+    },
+    {
+      "name": "Vue.js",
+      "level": 70,
+      "category": "前端框架"
+    },
+    {
+      "name": "MongoDB",
+      "level": 65,
+      "category": "数据库"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "year": "2018-2022",
+      "degree": "本科",
+      "school": "XX大学",
+      "major": "计算机科学与技术",
+      "desc": "GPA 3.8/4.0，获得国家奖学金，参与校级项目"校园管理系统"开发（React+Node.js）。担任学生会技术部部长，组织多次技术分享会。",
+      "location": "北京",
+      "achievements": [
+        "国家奖学金获得者",
+        "优秀学生干部",
+        "校级优秀毕业生"
+      ]
+    },
+    {
+      "id": "edu2",
+      "year": "2015-2018",
+      "degree": "高中",
+      "school": "XX市第一中学",
+      "major": "理科",
+      "desc": "高考成绩优异，数学、物理成绩突出。参与数学竞赛获得省级二等奖。",
+      "location": "上海",
+      "achievements": [
+        "高考理科优秀生",
+        "数学竞赛省级二等奖"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "work1",
+      "year": "2022-至今",
+      "company": "XX科技有限公司",
+      "position": "前端开发工程师",
+      "desc": "主导3个项目前端开发，提升页面加载速度30%，优化组件性能20%。负责技术选型、架构设计和团队培训。",
+      "location": "北京",
+      "responsibilities": [
+        "负责公司核心产品前端开发",
+        "制定前端开发规范和最佳实践",
+        "指导初级开发者技术成长",
+        "参与产品需求讨论和技术方案设计"
+      ],
+      "achievements": [
+        "将主要产品首屏加载时间从3s优化到1.2s",
+        "搭建完善的组件库，提升开发效率40%",
+        "主导技术栈升级，从Vue2迁移到React18"
+      ]
+    },
+    {
+      "id": "work2",
+      "year": "2021-2022",
+      "company": "XX互联网公司",
+      "position": "前端开发实习生",
+      "desc": "参与电商平台前端开发，负责商品展示、购物车、订单管理等核心功能模块开发。学习并应用React Hooks、Redux等技术。",
+      "location": "深圳",
+      "responsibilities": [
+        "开发电商平台核心功能模块",
+        "优化移动端用户体验",
+        "参与代码review和技术讨论"
+      ],
+      "achievements": [
+        "独立完成购物车功能开发",
+        "优化移动端适配，兼容性达到98%"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project1",
+      "name": "校园管理系统",
+      "desc": "基于React+Node.js的校园管理系统，实现学生信息管理、课程预约、成绩查询等功能。支持多角色权限管理，采用响应式设计。",
+      "tech": ["React", "Node.js", "MongoDB", "Express", "Ant Design"],
+      "link": "https://example.com/project1",
+      "github": "https://github.com/zhangsan/campus-system",
+      "image": "project-example.png",
+      "features": [
+        "多角色权限管理（学生、教师、管理员）",
+        "课程在线预约和管理",
+        "实时成绩查询和统计",
+        "响应式设计，支持移动端"
+      ],
+      "status": "已完成",
+      "duration": "2021.09 - 2021.12"
+    },
+    {
+      "id": "project2",
+      "name": "个人博客系统",
+      "desc": "基于React+TypeScript开发的个人博客系统，支持Markdown编辑、标签分类、评论系统等功能。采用现代化的UI设计。",
+      "tech": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Prisma"],
+      "link": "https://example.com/project2",
+      "github": "https://github.com/zhangsan/my-blog",
+      "image": "project-example.png",
+      "features": [
+        "Markdown在线编辑和预览",
+        "文章标签分类和搜索",
+        "用户评论和点赞系统",
+        "SEO优化和性能优化"
+      ],
+      "status": "进行中",
+      "duration": "2022.06 - 至今"
+    },
+    {
+      "id": "project3",
+      "name": "电商小程序",
+      "desc": "微信小程序电商平台，包含商品浏览、购物车、订单管理、支付等完整电商流程。采用云开发技术栈。",
+      "tech": ["小程序", "云开发", "微信支付", "腾讯云"],
+      "link": "https://example.com/project3",
+      "github": "https://github.com/zhangsan/wechat-shop",
+      "image": "project-example.png",
+      "features": [
+        "完整的电商购买流程",
+        "微信支付集成",
+        "商品搜索和筛选",
+        "订单状态跟踪"
+      ],
+      "status": "已完成",
+      "duration": "2022.01 - 2022.05"
+    }
+  ],
+  "stats": {
+    "totalProjects": 8,
+    "codeLines": 120000,
+    "technologies": 15,
+    "experience": "2年+",
+    "certifications": 3
+  }
+} 
