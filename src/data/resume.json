@@ -1,10 +1,10 @@
 {
   "personal": {
     "name": "路文斌",
-    "title": "后端开发工程师",
-    "subtitle": "Java开发专家 | 分布式系统架构师",
+    "title": "全栈开发工程师",
+    "subtitle": "Java开发 | Vue/React前端 | Python爬虫",
     "avatar": "avatar-example.jpg",
-    "bio": "专注于后端开发和分布式系统架构，在数据处理、爬虫开发和企业级应用方面有丰富经验。",
+    "bio": "专注于全栈开发和分布式系统架构，在数据处理、爬虫开发和企业级应用方面有丰富经验。",
     "contact": {
       "email": "2897718178@qq.com",
       "github": "https://github.com/wblu214",
@@ -99,6 +99,8 @@
       "department": "海外企业部门",
       "desc": "负责全球企业数据爬取和处理系统的开发与维护，日均处理200万+条数据。",
       "location": "上海",
+      "website": "https://www.wind.com.cn/",
+      "logo": "https://www.wind.com.cn/portal/common/img/logo-red.png",
       "responsibilities": [
         "构建多国商业数据爬取集群，采用动态代理/IP池规避反爬机制",
         "开发结构化数据处理引擎，解析CSV/HTML/JSON等非结构化数据",
@@ -121,6 +123,8 @@
       "department": "技术部",
       "desc": "参与得物APP售前导购模块开发，这是一个AIGC项目，负责算法模型与产品流程的集成。",
       "location": "上海",
+      "website": "https://www.dewu.com/",
+      "logo": "https://h5static.dewucdn.com/node-common/2b06036c-45e4-11eb-e923-918dc63592df-120-120.png",
       "responsibilities": [
         "新版本迭代需求的代码开发工作，包括卡片样式优化、关联商品池和价格反馈等功能",
         "编写技术方案文档，包括时序图、用例图、开发逻辑、风险规避等",
